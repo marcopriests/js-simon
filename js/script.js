@@ -57,8 +57,12 @@ bottone.addEventListener('click', function(event){
             }
             
         }
+
+        inputs[i].value = ''
     }
 
     console.log('cliccato')
+    message.classList.add('text-success')
+    message.classList.remove('text-danger')
     message.innerText = "Hai indovinato " + guessedNums.length + " numeri! (" + guessedNums + ")"
 })
