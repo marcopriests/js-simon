@@ -12,7 +12,7 @@ countdown.innerText = seconds
 setTimeout(function () {
     console.log("tempo scaduto")
 
-    instructions.innerText = "Inserisci tutti i numeri che ricordi! (Non importa l'ordine)"
+    instructions.innerText = "Inserisci tutti i numeri che ricordi (l'ordine non è importante)"
     form.classList.remove('d-none')
 }, 10000)
 
@@ -25,3 +25,7 @@ let timer = setInterval(function () {
         clearInterval(timer)
     }
 }, 1000)
+
+const randomNum = () => Math.floor(Math.random() * 100 + 1)
+
+console.log(randomNum())

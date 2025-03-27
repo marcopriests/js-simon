@@ -32,3 +32,5 @@ Ragionamento:
 - creo una variabile in cui salvare i secondi del countdown
 - inserisco un setInterval() ogni secondo in modo da incrementare la variabile dei secondi
 - modifico il contenuto dell'elemento countdown assegnandogli il valore di seconds
+
+- creo una funzione che mi generi un numero randomico tra 1 e 100
