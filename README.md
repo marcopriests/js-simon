@@ -34,3 +34,8 @@ Ragionamento:
 - modifico il contenuto dell'elemento countdown assegnandogli il valore di seconds
 
 - creo una funzione che mi generi un numero randomico tra 1 e 100
+
+- creo un for con 5 iterazioni che scompare quando si esegue il setTimeout()
+- ad ogni iterazione creo un elemento li
+- utilizzo append per aggiungere un numero randomico tramite la funzione creata in precedenza
+- utilizzo appendChild per assegnare il nuovo elemento all'elemento number-list
