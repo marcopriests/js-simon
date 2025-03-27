@@ -35,7 +35,19 @@ Ragionamento:
 
 - creo una funzione che mi generi un numero randomico tra 1 e 100
 
-- creo un for con 5 iterazioni che scompare quando si esegue il setTimeout()
+- creo un array in cui salvare i numeri randomici, mi servirà per il controllo finale credo
+- creo un for con 5 iterazioni
+- al suo interno creo una variabile num a cui assegno la funzione randomNum()
+- pusho nell'array la variabile con il numero randomico
 - ad ogni iterazione creo un elemento li
-- utilizzo append per aggiungere un numero randomico tramite la funzione creata in precedenza
+- utilizzo append per aggiungere la variabile contenente lo stesso numero randomico pushato nell'array
 - utilizzo appendChild per assegnare il nuovo elemento all'elemento number-list
+
+- recupero il bottone dal DOM
+- recupero gli input dal DOM
+- creo un event listener
+- creo un array vuoto
+- effettuo un confronto tra i due array (quello con i valori degli input e quelli in cui ho salvato i numeri randomici generati)
+- salvo nell'array vuoto tutti i numeri che combaciano
+- inserisco un messaggio che indichi quanti e quali numeri combaciano
+- svuoto gli input
