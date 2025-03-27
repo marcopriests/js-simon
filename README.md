@@ -28,3 +28,7 @@ Ragionamento:
 
 - inizio prendendo gli elementi countdown, instruction. number-list e il form dal DOM
 - inserisco un setTimeout di 10 secondi per far scomparire il countdown e le istruzioni e far comparire il form
+
+- creo una variabile in cui salvare i secondi del countdown
+- inserisco un setInterval() ogni secondo in modo da incrementare la variabile dei secondi
+- modifico il contenuto dell'elemento countdown assegnandogli il valore di seconds
