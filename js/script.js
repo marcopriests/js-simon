@@ -8,7 +8,7 @@ const bottone = document.querySelector('.btn')
 const message = document.getElementById('message')
 
 
-let seconds = 10
+let seconds = 30
 
 const numArray = []
 
@@ -29,11 +29,11 @@ for (let i = 0; i < 5; i++) {
 
 console.log(numArray)
 
-setTimeout(function () {
-    instructions.innerText = "Inserisci tutti i numeri che ricordi (l'ordine non è importante)"
-    form.classList.remove('d-none')
-    numberList.classList.add('d-none')
-}, 10000)
+// setTimeout(function () {
+//     instructions.innerText = "Inserisci tutti i numeri che ricordi (l'ordine non è importante)"
+//     form.classList.remove('d-none')
+//     numberList.classList.add('d-none')
+// }, 30000)
 
 let timer = setInterval(function () {
     seconds--
@@ -42,6 +42,9 @@ let timer = setInterval(function () {
 
     if (seconds === 0) {
         clearInterval(timer)
+        instructions.innerText = "Inserisci tutti i numeri che ricordi (l'ordine non è importante)"
+        form.classList.remove('d-none')
+        numberList.classList.add('d-none')
     }
 }, 1000)
 
